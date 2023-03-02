@@ -5,7 +5,7 @@ function PersonBio({text}) {
                 {text}
             </div>
         </div>
-    )
+    );
 }
 
 export default PersonBio;
