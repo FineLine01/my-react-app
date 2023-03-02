@@ -8,7 +8,18 @@ function App() {
 
     <div className="App">
       <header className="App-header">
-      <Postcard />
+        <div className="card-container">
+      <Postcard 
+      name="Barack Obama"
+      jobTitle="President"
+      text={`teeeeeeeeext`}
+    />
+    <Postcard
+    name="Michael Jordan"
+    jobTitle="Basketball player"
+    text={`teeeeeeeeext`}
+    />
+      </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>

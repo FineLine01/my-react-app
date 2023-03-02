@@ -1,14 +1,14 @@
-function Link(){
+export default function Link({url, linkText}){
     return (
 <a
           className="App-link"
-          href="https://reactjs.org"
+          href={url}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {linkText}
         </a>
     );
 }
 
-export default Link;
+// export default Link;
